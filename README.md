@@ -44,4 +44,4 @@ TELEGRAM_CHAT_ID=your_chat_id_here
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-2. Сборка проекта
+###2. Сборка проекта
