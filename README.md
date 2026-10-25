@@ -42,3 +42,19 @@
 TELEGRAM_BOT_TOKEN=your_bot_token_here
 TELEGRAM_CHAT_ID=your_chat_id_here
 GEMINI_API_KEY=your_gemini_api_key_here
+
+### 2.Сборка проекта
+
+mvn clean package -DskipTests
+
+### 3. Запуск
+
+mvn spring-boot:run
+
+или запуск готового JAR:
+
+java -jar target/agent-1.0-SNAPSHOT.jar
+
+🛡 Безопасность
+Файлы истории (processed_ids.txt), сгенерированные отчеты (applications.md) и конфигурации с секретами (.env) исключены из репозитория через .gitignore.
+
